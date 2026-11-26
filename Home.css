@@ -1,0 +1,119 @@
+*{margin:0;
+padding:0;
+box-sizing:border-box ;
+font-family:"Segoe UI", Arial, sans-serif;
+
+}
+#science{color:#0891b2;
+  font-size:22px;     
+        
+        
+        
+}
+.navbar,ul,li,a{display:flex;
+  flex-direction:row;
+  justify-content:end;
+  align-items:end;
+  gap:11px;
+  margin-right: 2px;
+  margin-top:-5px;
+  
+}
+.navbar,ul,li,a{
+ list-style-type: none; 
+ text-decoration:none;
+ color:white;
+ 
+  
+  
+}
+ li{border-right:1px solid white;}
+.hero{margin-top:39px;}
+
+.hero,h2{
+color:#0891b2;
+margin-left:4px;
+  
+}
+.hero,h1{color:white;
+margin-left:4px;
+margin-top:14px;
+}
+.hero,p{margin-left:4px;
+  margin-top:18px;
+}
+button{background-color:#0891b2;
+
+
+  color:white;
+  border:none;
+
+  margin-left:9px;
+  margin-top:22px ;
+  border-radius:8px ;
+  padding:10px;
+}
+.all{width:100%;
+height:600px;
+  margin-top: -16px;
+  border-radius:4px;
+  background-color: #131B2A;}
+  img{width:100%;
+  
+    height:280px;
+    border-radius:10px;
+    margin-top:23px;
+    
+  }
+  .courses {
+  padding: 20px;
+}
+
+.courses h2 {
+  color: #0F172A;
+}
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course {
+  width: 45%;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px #0003;
+}
+
+.course img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.course h3 {
+  padding: 10px;
+  color: #0F172A;
+}
+.int{background-color:#D7D7D7;
+  width:100%;
+}
+.boxe-1{color:red;}
+footer{ width:100%;
+height:46px;
+  background-color: #131B2A;
+  color:white;
+  text-align:center;
+  border-radius:7px;
+  margin-top:-18px;
+  
+}
+
+
+@media (max-width: 600px) {
+  .course {
+    width: 100%;
+  }
+}
